@@ -21,6 +21,10 @@ class Lab1IntegrationTests: XCTestCase {
         super.tearDown()
     }
     
+    func testExampleTwo(){
+        XCTAssert(true)
+    }
+    
     func testExample() {
         XCTAssert(true)
         // This is an example of a functional test case.
